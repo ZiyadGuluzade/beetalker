@@ -5,40 +5,21 @@ class Signin extends React.Component {
   render() {
     return(
       <React.Fragment>
-        <div className='container sign-up-container'>
-          {/* <span>Use your email for registration</span> */}
-          <div className='form-container sign-up-tutor-container'>
-            <form action='#'>
-            <h2>Sign up as a student</h2>
-              <input type='text' placeholder='First name' />
-              <input type='text' placeholder='Last name' />
-              <input type='email' placeholder='email' />
-              <input type='password' placeholder='password' />
-              <button className='sign-up-button'>Sign Up</button>
-            </form>
+        <div className='container form-div'>
+          <div className='title-div'>
+            <h2 className='form-title'>Log in</h2>
+          </div>  
+          <div className='sign-up-links'>
+            <a href='#'>Sign up as a student</a>
+            <a href='#'>Sign up as a tutor</a>
           </div>
-          <div className='form-container sign-in-student-container'>
-            <form action='#'>
-            <h2>Sign up as a tutor</h2>
-              <input type='text' placeholder='First name'/>
-              <input type='text' placeholder='Last name' />
-              <input type='text' placeholder='email' />
-              <input type='text' placeholder='password' />
-              <button className='sign-up-button'>Sign Up</button>
-            </form>
-          </div>
-          <div className='overlay-container'>
-            <div className='overlay'>
-              <div className='overlay-left'>
-                <h2>Sign Up as a Student</h2>
-                <button className='sign-up-button' id='student'>Sign Up</button>
-              </div>
-              <div className='overlay-right'>
-                <h2>Sign Up as a Tutor</h2>
-                <button className='sign-up-button' id='tutor'>Sign Up</button>
-              </div>
-            </div>
-          </div>
+          <form>
+            <label for='email'>Email</label>
+            <input type='text' id='email' />
+            <label for='password'>Password</label>
+            <input id='password' type='password'/>
+            <button className='login-btn'>Log in</button>
+          </form>
         </div>
       </React.Fragment>
     )
