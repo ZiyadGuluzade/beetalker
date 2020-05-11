@@ -3,19 +3,11 @@
 }
 
 .form-div {
-	margin: 10% 20%;
-	background-color: bisque;
 	display: flex;
 	flex-direction: column;
-	padding: 5%;
-}
-
-.sign-up-links {
-	display: flex;
-	justify-self: flex-end;
-}
-
-button.login-btn {
-	background-color: blue;
-	padding: 10px 50px;
+	/* temporary */
+	margin: 10%;
+	padding: 20px;
+	/* temporary */
+	border: 1px solid black;
 }
