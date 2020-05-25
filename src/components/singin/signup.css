@@ -6,8 +6,8 @@
 	display: flex;
 	flex-direction: column;
 	/* temporary */
-	margin: 10%;
-	padding: 20px;
+	/* margin: 10%;
+	padding: 20px; */
 	/* temporary */
 	border: 1px solid black;
 }

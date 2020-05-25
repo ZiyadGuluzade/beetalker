@@ -12,7 +12,7 @@ class Navbar extends React.Component {
             <ul className='nav-list'>
               <li><a href='#'>About</a></li>
               <li><a href='#'>Sign in</a></li>
-              <li><a href='#'>Sign Up</a></li>
+              <li><a href='#'>Sign up</a></li>
             </ul>
           </div>
         </nav>

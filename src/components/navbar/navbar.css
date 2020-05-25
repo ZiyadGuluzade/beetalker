@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+.logo {
+	font-size: 30px;
+}
+
 .navbar {
 	position: absolute;
 	left: 0;
@@ -20,9 +24,9 @@
 	color: #5bc0be;
 }
 
-.navbar:hover .nav-list a {
+/* .navbar:hover .nav-list a {
 	color: #333533;
-}
+} */
 
 .navbar .container {
 	display: grid;
@@ -42,7 +46,7 @@
 }
 
 .navbar .nav-list a:hover {
-	color: #5b5d5c;
+	color: #adadad;
 }
 
 a {

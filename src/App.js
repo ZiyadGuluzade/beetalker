@@ -3,12 +3,12 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Landingpage from './components/landingpage/Landingpage';
 import Signup from './components/singin/Signup';
+import MainPage from './components/main/MainPage';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Landingpage />
+      <MainPage />
       <Signup />
     </div>
   );
