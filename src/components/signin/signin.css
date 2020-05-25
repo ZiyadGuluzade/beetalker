@@ -1,0 +1,34 @@
+.signin-container {
+	display: flex;
+	background-image: url('../../images/beetalker_background_5.jpg');
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	
+}
+
+.form-div {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	min-width: 400px;
+	padding: 20px;
+}
+
+h2.form-title {
+	font-size: 25px;
+	color: #5bc0be;
+	font-weight: 600;
+}
+
+button.signin-btn {
+	background-color: #5bc0be;
+	border-color:#5bc0be;
+	color: white;
+}
+
+button.signin-btn:hover {
+	background-color: #50a5a4;
+	color: white;
+}

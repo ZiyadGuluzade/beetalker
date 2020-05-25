@@ -1,0 +1,9 @@
+.signup-container {
+	display: flex;
+	background-image: url('../../images/beetalker_background_5.jpg');
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	
+}
